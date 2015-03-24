@@ -41,12 +41,12 @@
     [self buildBestLayerBegin:0.4 end:0.6];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self updateCurren:0.54];
+        [self updateCurrent:0.54];
     });
 }
 
 - (void)buildFrontLayerBorderColor:(UIColor*)borderColor bestLayerColor:(UIColor*)bestColor progressColor:(UIColor*)progressColor {
-    self.layer.cornerRadius = 7.5;
+    self.layer.cornerRadius = self.bounds.size.height / 2;
     self.layer.masksToBounds = YES;
     self.layer.backgroundColor = [UIColor clearColor].CGColor;
     
@@ -54,7 +54,7 @@
     _frontLayer.frame = self.bounds;
     _frontLayer.borderColor = borderColor.CGColor;
     _frontLayer.borderWidth = 1;
-    _frontLayer.cornerRadius = 7.5;
+    _frontLayer.cornerRadius = self.bounds.size.height / 2;
     _frontLayer.shadowColor = borderColor.CGColor;
     _frontLayer.shadowOffset = CGSizeZero;
     _frontLayer.shadowOpacity = 1.0;
@@ -85,7 +85,7 @@
     [_progressPath moveToPoint:CGPointMake(0, self.bounds.size.height / 2)];
     [_progressPath addLineToPoint:CGPointMake(self.bounds.size.width, self.bounds.size.height / 2)];
     _progressLayer = [CAShapeLayer layer];
-    _progressLayer.frame = self.layer.bounds;
+//    _progressLayer.frame = self.layer.bounds;
     _progressLayer.path = _progressPath.CGPath;
 //    _progressLayer.borderColor = [UIColor clearColor].CGColor;
     _progressLayer.fillColor = [UIColor clearColor].CGColor;
@@ -98,7 +98,7 @@
 }
 
 // 更新进度条的值
-- (void)updateCurren:(CGFloat)current {
+- (void)updateCurrent:(CGFloat)current {
     dispatch_async(dispatch_get_main_queue(), ^ {
         [UIView animateWithDuration:0.2 animations:^ {
             _progressLayer.strokeEnd = current;
