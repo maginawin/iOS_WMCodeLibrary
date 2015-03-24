@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		086EB5EA1AC1A47D00ECAAB7 /* WMSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 086EB5E91AC1A47D00ECAAB7 /* WMSliderViewController.m */; };
+		086EB5ED1AC1A71200ECAAB7 /* WMSTSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086EB5EC1AC1A71200ECAAB7 /* WMSTSliderView.m */; };
 		08B6D63C1AB485E60094C09D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D63B1AB485E60094C09D /* main.m */; };
 		08B6D63F1AB485E60094C09D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D63E1AB485E60094C09D /* AppDelegate.m */; };
 		08B6D6421AB485E60094C09D /* WMCodeLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D6401AB485E60094C09D /* WMCodeLibrary.xcdatamodeld */; };
-		08B6D6451AB485E60094C09D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D6441AB485E60094C09D /* ViewController.m */; };
-		08B6D6481AB485E60094C09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B6D6461AB485E60094C09D /* Main.storyboard */; };
 		08B6D64A1AB485E60094C09D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B6D6491AB485E60094C09D /* Images.xcassets */; };
 		08B6D64D1AB485E60094C09D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B6D64B1AB485E60094C09D /* LaunchScreen.xib */; };
 		08B6D6591AB485E60094C09D /* WMCodeLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D6581AB485E60094C09D /* WMCodeLibraryTests.m */; };
+		08B6D6651AB4862D0094C09D /* WMMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D6641AB4862D0094C09D /* WMMainTableViewController.m */; };
+		08B6D6691AB48B290094C09D /* WMCoreAnimationStudyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D6681AB48B290094C09D /* WMCoreAnimationStudyVC.m */; };
+		08B6D66C1AB48B560094C09D /* WMDrawLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D66B1AB48B560094C09D /* WMDrawLayerVC.m */; };
+		08B6D6721AB48BD60094C09D /* WMDrawLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D6711AB48BD60094C09D /* WMDrawLayerView.m */; };
+		08B6D6751AB49AB00094C09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B6D6731AB49AB00094C09D /* Main.storyboard */; };
+		08B6D6781AB72F2F0094C09D /* WMCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B6D6771AB72F2F0094C09D /* WMCircleLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +34,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		086EB5E81AC1A47D00ECAAB7 /* WMSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSliderViewController.h; sourceTree = "<group>"; };
+		086EB5E91AC1A47D00ECAAB7 /* WMSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSliderViewController.m; sourceTree = "<group>"; };
+		086EB5EB1AC1A71200ECAAB7 /* WMSTSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSTSliderView.h; sourceTree = "<group>"; };
+		086EB5EC1AC1A71200ECAAB7 /* WMSTSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSTSliderView.m; sourceTree = "<group>"; };
 		08B6D6361AB485E60094C09D /* WMCodeLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMCodeLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B6D63A1AB485E60094C09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08B6D63B1AB485E60094C09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08B6D63D1AB485E60094C09D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08B6D63E1AB485E60094C09D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		08B6D6411AB485E60094C09D /* WMCodeLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WMCodeLibrary.xcdatamodel; sourceTree = "<group>"; };
-		08B6D6431AB485E60094C09D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		08B6D6441AB485E60094C09D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		08B6D6471AB485E60094C09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08B6D6491AB485E60094C09D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		08B6D64C1AB485E60094C09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		08B6D6521AB485E60094C09D /* WMCodeLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMCodeLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B6D6571AB485E60094C09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08B6D6581AB485E60094C09D /* WMCodeLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMCodeLibraryTests.m; sourceTree = "<group>"; };
+		08B6D6631AB4862D0094C09D /* WMMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMainTableViewController.h; sourceTree = "<group>"; };
+		08B6D6641AB4862D0094C09D /* WMMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMainTableViewController.m; sourceTree = "<group>"; };
+		08B6D6671AB48B290094C09D /* WMCoreAnimationStudyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCoreAnimationStudyVC.h; sourceTree = "<group>"; };
+		08B6D6681AB48B290094C09D /* WMCoreAnimationStudyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCoreAnimationStudyVC.m; sourceTree = "<group>"; };
+		08B6D66A1AB48B560094C09D /* WMDrawLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDrawLayerVC.h; sourceTree = "<group>"; };
+		08B6D66B1AB48B560094C09D /* WMDrawLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDrawLayerVC.m; sourceTree = "<group>"; };
+		08B6D6701AB48BD60094C09D /* WMDrawLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDrawLayerView.h; sourceTree = "<group>"; };
+		08B6D6711AB48BD60094C09D /* WMDrawLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDrawLayerView.m; sourceTree = "<group>"; };
+		08B6D6741AB49AB00094C09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08B6D6761AB72F2F0094C09D /* WMCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCircleLayer.h; sourceTree = "<group>"; };
+		08B6D6771AB72F2F0094C09D /* WMCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCircleLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		086EB5E71AC1A45E00ECAAB7 /* Slider View */ = {
+			isa = PBXGroup;
+			children = (
+				086EB5E81AC1A47D00ECAAB7 /* WMSliderViewController.h */,
+				086EB5E91AC1A47D00ECAAB7 /* WMSliderViewController.m */,
+				086EB5EB1AC1A71200ECAAB7 /* WMSTSliderView.h */,
+				086EB5EC1AC1A71200ECAAB7 /* WMSTSliderView.m */,
+			);
+			name = "Slider View";
+			sourceTree = "<group>";
+		};
 		08B6D62D1AB485E60094C09D = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +112,13 @@
 		08B6D6381AB485E60094C09D /* WMCodeLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				086EB5E71AC1A45E00ECAAB7 /* Slider View */,
+				08B6D6621AB485ED0094C09D /* Core Animation Study */,
 				08B6D63D1AB485E60094C09D /* AppDelegate.h */,
 				08B6D63E1AB485E60094C09D /* AppDelegate.m */,
-				08B6D6431AB485E60094C09D /* ViewController.h */,
-				08B6D6441AB485E60094C09D /* ViewController.m */,
-				08B6D6461AB485E60094C09D /* Main.storyboard */,
+				08B6D6631AB4862D0094C09D /* WMMainTableViewController.h */,
+				08B6D6641AB4862D0094C09D /* WMMainTableViewController.m */,
+				08B6D6731AB49AB00094C09D /* Main.storyboard */,
 				08B6D6491AB485E60094C09D /* Images.xcassets */,
 				08B6D64B1AB485E60094C09D /* LaunchScreen.xib */,
 				08B6D6401AB485E60094C09D /* WMCodeLibrary.xcdatamodeld */,
@@ -120,6 +151,29 @@
 				08B6D6571AB485E60094C09D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08B6D6621AB485ED0094C09D /* Core Animation Study */ = {
+			isa = PBXGroup;
+			children = (
+				08B6D6671AB48B290094C09D /* WMCoreAnimationStudyVC.h */,
+				08B6D6681AB48B290094C09D /* WMCoreAnimationStudyVC.m */,
+				08B6D6661AB48AFC0094C09D /* 自定义绘图 */,
+			);
+			name = "Core Animation Study";
+			sourceTree = "<group>";
+		};
+		08B6D6661AB48AFC0094C09D /* 自定义绘图 */ = {
+			isa = PBXGroup;
+			children = (
+				08B6D66A1AB48B560094C09D /* WMDrawLayerVC.h */,
+				08B6D66B1AB48B560094C09D /* WMDrawLayerVC.m */,
+				08B6D6701AB48BD60094C09D /* WMDrawLayerView.h */,
+				08B6D6711AB48BD60094C09D /* WMDrawLayerView.m */,
+				08B6D6761AB72F2F0094C09D /* WMCircleLayer.h */,
+				08B6D6771AB72F2F0094C09D /* WMCircleLayer.m */,
+			);
+			name = "自定义绘图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08B6D6481AB485E60094C09D /* Main.storyboard in Resources */,
+				08B6D6751AB49AB00094C09D /* Main.storyboard in Resources */,
 				08B6D64D1AB485E60094C09D /* LaunchScreen.xib in Resources */,
 				08B6D64A1AB485E60094C09D /* Images.xcassets in Resources */,
 			);
@@ -222,10 +276,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B6D66C1AB48B560094C09D /* WMDrawLayerVC.m in Sources */,
 				08B6D63F1AB485E60094C09D /* AppDelegate.m in Sources */,
 				08B6D6421AB485E60094C09D /* WMCodeLibrary.xcdatamodeld in Sources */,
-				08B6D6451AB485E60094C09D /* ViewController.m in Sources */,
+				086EB5EA1AC1A47D00ECAAB7 /* WMSliderViewController.m in Sources */,
+				08B6D6651AB4862D0094C09D /* WMMainTableViewController.m in Sources */,
+				08B6D6721AB48BD60094C09D /* WMDrawLayerView.m in Sources */,
+				086EB5ED1AC1A71200ECAAB7 /* WMSTSliderView.m in Sources */,
+				08B6D6781AB72F2F0094C09D /* WMCircleLayer.m in Sources */,
 				08B6D63C1AB485E60094C09D /* main.m in Sources */,
+				08B6D6691AB48B290094C09D /* WMCoreAnimationStudyVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,20 +308,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08B6D6461AB485E60094C09D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08B6D6471AB485E60094C09D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		08B6D64B1AB485E60094C09D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				08B6D64C1AB485E60094C09D /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		08B6D6731AB49AB00094C09D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B6D6741AB49AB00094C09D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,6 +478,7 @@
 				08B6D65E1AB485E60094C09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08B6D65F1AB485E60094C09D /* Build configuration list for PBXNativeTarget "WMCodeLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +487,7 @@
 				08B6D6611AB485E60094C09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

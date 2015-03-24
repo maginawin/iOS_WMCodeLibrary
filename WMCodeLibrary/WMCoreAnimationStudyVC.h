@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WMCoreAnimationStudyVC.h
 //  WMCodeLibrary
 //
 //  Created by wangwendong on 15/3/14.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WMDrawLayerVC.h"
 
-@interface ViewController : UIViewController
-
+@interface WMCoreAnimationStudyVC : UITableViewController
 
 @end
-
